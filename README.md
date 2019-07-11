@@ -59,6 +59,6 @@ From here on out, simply run `gulp` from your terminal and you're good to go!
 
 ## Support
 
-If you experience any problems with the above, or if you think you've found a bug with the theme, please don't hesitate to reach out to marcom@cozyglow.co.uk. Thanks!
+If you experience any problems with the above, or if you think you've found a bug with the theme, please don't hesitate to reach out to shop-local@cozyglow.co.uk. Thanks!
 
 [node-download]: https://nodejs.org/download

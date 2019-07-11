@@ -1,5 +1,5 @@
 {
-  "name": "shop-local-theme",
+  "name": "@shop-local/shop-local-theme",
   "description": "Shop Local theme.",
   "main": "gulpfile.js",
   "author": "Kristian Matthews",
@@ -28,5 +28,6 @@
     "node-sass": "^4",
     "node-sass-tilde-importer": "^1",
     "pantone-css": "^0.1"
-  }
+  },
+  "version": "0.0.1"
 }
