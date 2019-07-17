@@ -1,6 +1,8 @@
 // Marketing Theme
+@import "./variables.scss";
+
 $theme-colors: (
-  primary: #EEE04A,
+  primary: $indigo,
   secondary: #d4dbe0,
   success: #5cb85c,
   info: #5bc0de,
@@ -9,8 +11,6 @@ $theme-colors: (
   light: #f5f8fa,
   dark: #122a38
 );
-
-@import "./variables.scss";
 
 // General
 $body-bg: #000;
