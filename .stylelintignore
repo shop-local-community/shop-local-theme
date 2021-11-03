@@ -1,0 +1,4 @@
+**/*.min.css
+**/dist/
+/js/coverage/
+/docs/
