@@ -1,3 +1,14 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
 
 # Created by https://www.gitignore.io/api/macos,node
 # Edit at https://www.gitignore.io/?templates=macos,node
