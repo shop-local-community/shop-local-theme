@@ -9,7 +9,7 @@
     // Links rendered as pills
     > .nav-link {
       display: inline-block;
-      padding: ($spacer-y / 2) 0;
+      padding: div($spacer-y, 2) 0;
       font-weight: $nav-bordered-font-weight;
       color: $nav-bordered-color;
       border-bottom: 4px solid transparent;
@@ -84,10 +84,13 @@
     }
 
     .nav-divider {
-      @include nav-divider(rgba(255,255,255,.2));
+      height: 0;
       margin-left: (($spacer-x * 1.5) + ($spacer * 0.25));
+      margin-right: div($spacer, 2);
       margin-top: 20px;
       margin-bottom: 25px;
+      overflow: hidden;
+      border-top: 1px solid rgba(255,255,255,.2);
     }
   }
 }

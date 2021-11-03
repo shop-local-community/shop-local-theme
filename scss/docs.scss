@@ -1,7 +1,7 @@
 // generate docs css
 
 @import "./variables.scss";
-@import "./bootstrap/_mixins.scss";
+@import "bootstrap/scss/mixins.scss";
 @import "./custom/syntax.scss";
 @import "./custom/docs.scss";
 
@@ -24,7 +24,7 @@
 
 // code styles
 .gp {
-  color: theme-color("primary");
+  color: $primary;
 }
 
 // component overides
@@ -33,7 +33,7 @@
 }
 .docs-example .featured-list .icon,
 .docs-example .featured-list h3 {
-  color: theme-color("primary");
+  color: $primary;
 }
 .docs-example .text-ribbon {
   color: #fff;
@@ -45,6 +45,9 @@
   background-color: #fff;
 }
 .docs-bg {
-  background-color: theme-color("primary");
-  background-image: linear-gradient(to bottom, darken(theme-color("primary"), 15%) 0, theme-color("primary") 100%);
+  background-color: $primary;
+  background-image: linear-gradient(to bottom, darken($primary, 15%) 0, $primary 100%);
 }
+
+@import "@epickris/bootstrap-kit/scss/components";
+@import "bootstrap/scss/bootstrap";

@@ -1,6 +1,6 @@
-@import "~bootstrap/scss/_functions";
-@import "~bootstrap/scss/_variables";
-@import "~pantone-css/scss/pantone";
+@import "@epickris/bootstrap-kit/scss/variables"; // Required
+
+@import "pantone-css/scss/pantone";
 
 // Color system
 
@@ -65,9 +65,9 @@ $btn-padding-y-xs:   5px !default; // TODO: Change this to REMs since most of v4
 
 $btn-toolbar-divider-bg: $gray-200;
 
-$btn-primary-bg:     theme-color("primary");
-$btn-primary-border: theme-color("primary");
-$link-color:         theme-color("primary");
+$btn-primary-bg:     $primary;
+$btn-primary-border: $primary;
+$link-color:         $primary;
 
 
 // Container sizes
@@ -79,7 +79,7 @@ $container-lg:            $container-large-desktop;
 
 // nav-bordered
 $nav-bordered-color:              #fff;
-$nav-bordered-color-active:       theme-color("primary");
+$nav-bordered-color-active:       $primary;
 $nav-bordered-font-weight:        700;
 $nav-bordered-font-weight-active: 700;
 
@@ -106,7 +106,7 @@ $navbar-nav-active-font-weight:    inherit;
 
 // Navbar inverse
 $navbar-inverse-border: transparent;
-$navbar-inverse-bg:     theme-color("primary");
+$navbar-inverse-bg:     $primary;
 
 // Navbar - transparent
 $navbar-transparent-color:               #fff;
@@ -176,9 +176,9 @@ $custom-select-bg:          $input-bg;
 $custom-select-disabled-bg: $input-disabled-bg;
 $custom-control-indicator-bg:     $input-bg;
 $custom-control-indicator-border: rgba(0,0,0,.15);
-$custom-control-indicator-checked-bg:      theme-color("primary");
-$custom-control-indicator-checked-border:  theme-color("primary");
-$custom-control-indicator-active-bg:       lighten(theme-color("primary"), 15%);
-$custom-control-indicator-active-border:   lighten(theme-color("primary"), 15%);
+$custom-control-indicator-checked-bg:      $primary;
+$custom-control-indicator-checked-border:  $primary;
+$custom-control-indicator-active-bg:       lighten($primary, 15%);
+$custom-control-indicator-active-border:   lighten($primary, 15%);
 $custom-control-indicator-disabled-bg:     darken($input-bg, 5%);
 $custom-control-indicator-disabled-border: $custom-control-indicator-border;
